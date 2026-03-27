@@ -1,0 +1,54 @@
+
+
+#### High correlation columns
+ - 1. With BNPL1:
+
+| Variable | Question | Category | Correlation with BNPL1 | Spearman corr (p) | Chi^2 (p, cramers_v) |
+|--------|-----|-----|-----|-----|-----|
+| ppfs0596	| Household income and investment | | | -0.157546	(2.101884e-168) | 785.899053	(1.714126e-166,	0.157056)  |
+| ppfs1482 | Where do you think your credit score falls? |  |  | | 2095.860225	(0.000000e+00,	0.228806)|
+| ppage | age |  |  | -0.129598	(5.249315e-176) | |
+| A6 | Confidence of credit card application approval | |  | | 1807.429243	(0.000000e+00	0.195611)|
+| C4A | Frequency carried an unpaid balance on credit cards | |  | | 2409.108407	(0.000000e+00	0.244392V)|
+| EF1 | Have you set aside emergency funds? | | |  | 1395.318197(2.186735e-305	0.171870)|
+| A1_a | Turned on for credit in past 12 months | |  | | 1028.181904	(1.344683e-225	0.249273)|
+| A1_b| Approved for credit, but were not given as much credit as you applied for in the past 12 months | | | | 774.527515	(1.863587e-170	0.216351)|
+| A1_c | Put off applying for credit because you thought you might be turned down in the past 12 months |  |  | | 954.507724	(1.389561e-209	0.240176) |
+| X12_e | Making ends meet - Are each of the following a financial challenge or concern for you or your family? | |  | | 228.753785	(2.122007e-50	0.193255) |
+| ppfs1482_Excellent  | where do your credit score falls? |  | |  | 1413.792239	(2.115226e-309	0.173004) | |
+| C4A_Most_or_all_of_the_time	 | In the past 12 months, how frequently have you carried an unpaid balance on one or more of your credit cards?  | |  | | 1511.582349	(0.000000e+00	0.178887) |
+| C4A_Never carried an unpaid balance (always paid in full) | In the past 12 months, how frequently have you carried an unpaid balance on one or more of your credit cards? | |  | | 1857.842534	(0.000000e+00	0.198321)|
+
+
+![](img/crosstab1.png){width=50%, fig-align="left"}
+![](img/crosstab2.png){width=50%, fig-align="left"}
+![](img/crosstab3.png){width=50%, fig-align="left"}
+![](img/crosstab4.png){width=50%, fig-align="left"}
+
+
+ - 2. With BNPL3:
+
+| Variable | Question | Category | Correlation with BNPL1 | Spearman corr (p) | Chi^2 (p, cramers_v) |
+|--------|-----|-----|-----|-----|-----|
+| I20	| Spending higher/lower/same as income | | | | 153.998819	(3.627283e-34	0.167164)  |
+| ppeducat	| Education | | |  | 127.669360	(1.719082e-27	0.152205)  |
+| ppfs0596	| Household income and investment | | |  | 785.899053	(1.714126e-166,	0.157056)  |
+| ppinc7 | Household income |  |  | -0.206426	(4.186553e-54) | 248.637921	(8.016644e-51	0.212407)|
+| ppfs1482 | Where do you think your credit score falls? |  | |  | 414.660244	(2.051954e-87	0.309423) | |
+| SL6 | Are you behind on payments or in collections for one or more of the student loans from your own education?  | |  | | 109.305151	(1.391303e-25	0.268339) |
+| A6 | Confidence of credit car approval | |  | | 527.580377(5.026688e-114	0.309406) |
+| EF1 | Have you set aside emergency funds? | | |  | 141.565359	(1.210373e-32	0.160274)|
+| A1_a | Turned on for credit in past 12 months | |  | | 293.640910	(8.002979e-66	0.301094)|
+| A1_b| Approved for credit, but were not given as much credit as you applied for in the past 12 months | | | | 103.896530	(2.131625e-24	0.179100)|
+| A1_c | Put off applying for credit because you thought you might be turned down in the past 12 months |  |  | | 223.091585	(1.914480e-50	0.262444) |
+| X12_a | Finding or keeping a job - Are each of the following a financial challenge or concern you or your family?  | |  | | 54.618626	(1.379482e-12	0.260156) |
+| X12_c | Increases in prices for things you buy - Are each of the following a financial challenge concern for you or your family?  | |  | | 28.956009	(5.155639e-07	0.189423) |
+| X12_e | Making ends meet - Are each of the following a financial challenge or concern for you or your family? | |  | | 51.299939	(7.250364e-12	0.252128) |
+| EF5C	 | Other than any credit card bills you may have, did you pay all your bills in full last month?   | |  | | 230.371682	(4.946355e-52	0.271512) |
+| ppfs1482_Excellent | Excellent credit scores | |  | | 127.502275	(1.442355e-29	0.152105)|
+| ppfs1482_Poor | Poor credit scores | |  | | 164.054165	(1.472072e-37	0.172535)|
+
+
+![](img/crosstab5.png){width=50%, fig-align="left"}
+![](img/crosstab6.png){width=50%, fig-align="left"}
+![](img/crosstab7.png){width=50%, fig-align="left"}
