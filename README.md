@@ -42,23 +42,23 @@ Here are all of the variables shared across the four surveys. I verified that th
 | C4A |In the past 12 months, how frequently have you carried an unpaid balance on one or more of your credit cards? |
 | EF1 | Have you set aside emergency or rainy day funds that would cover your expenses for 3 months in case of sickness, job loss, economic downturn, or other emergencies? |
 | I20 | In the past month, would you say that your and your spouse’s or partner’s total spending was more or less than your income? |
-
-|I41_c|In the past 12 months, have you or your spouse recieved Women, Infants, and Children (WIC) nutrition program benefits?|
-|I41_e|In the past 12 months, have you or your spouse recieved free or reduced price school lunches for your children?|
-|L0C|How many children do you have who are under age 18 and currently live with you?|
-|ppage|Age (discrete number of years)|
-|ppethm|Race/ethnicity|
-|ppeducat|What is your highest level of eductation?|
-|ppemploy|Current employment status|
-|ppfs0596| What is the approximate total amount of your household's savings and investments?|
-|ppfs1482|Where do you think your credit score falls?|
-|pphhsize|Household size|
-|ppinc7|Total household income (categorical, e.g. $10K-$24,999, $25K-$34,999)|
-|ppkid017|Presence of children in the household|
-|ppmarit5|Marital status|
-|EF1|Have you set aside emergency or rainy day funds that would cover your expenses for 3 months in case of sickness, job loss, economic downturn, or other emergencies?|
-|EF5C (available 2023-2024 data)|Other than any credit card bills you may have, did you pay all your bills in full last month?|Available 2023-2024 |
-
+| L0C | How many children do you have who are under age 18 and currently live with you? |
+| ppage | Age (discrete number of years) |
+| ppethm | Race |
+| ppeducat | What is your highest level of eductation? |
+| ppemploy | Current employment status |
+| ppfsasset | What is the approximate total amount of your household's savings and investments? |
+| ppfs1482 |Where do you think your credit score falls? |
+| pphhsize | Household size |
+| ppinc7 | Total household income (categorical, e.g. $10K-$24,999, $25K-$34,999) |
+| ppmarit5 | Marital status |
+| EF5C |Other than any credit card bills you may have, did you pay all your bills in full last month? |
+| C3P | Last month, how did you handle your credit card bills? |
+| K21_a | Do you currently have Retirement savings account, such as a 401(k) plan through an employer, IRA or Roth IRA |
+| INF4 | Overall, have changes in the prices you pay compared to last year made your financial situation worse, better, or had little to no effect? |
+| BNPL1A | In the past year, did any of your BNPL payments trigger an overdraft or non-sufficient-funds (NSF) fee on your bank account? |
+| BNPL5 | Thinking about the most recent time you used a Buy Now Pay Later service, which of the following was the most important reason why you chose to finance the purchase in this way? |
+| EF5D | Did you have any bills that you had difficulty paying last month? |
 
 **EF3a-h are all possible responses to the following question: Suppose that you have an emergency expense that costs ($400/$500). Based on your current financial situation, how would you pay for this expense?**
 
@@ -73,7 +73,7 @@ Here are all of the variables shared across the four surveys. I verified that th
 |EF3_g|By selling something|
 |EF3_h|I wouldn't be able to pay for the expense right now|
 
-**X12a-g (only available for 2024 data) are all possible responses to the following question: Are each of the following a financial challenge or concern you or your family?**
+**X12a-g (only available for 2024,2025 data) are all possible responses to the following question: Are each of the following a financial challenge or concern you or your family?**
 
 |Variable name|Description|
 |---|---|
@@ -95,7 +95,6 @@ Here are all of the variables shared across the four surveys. I verified that th
 
 **BNPL 4a-4f are all possible responses to the following question: Thinking about the most recent time you used a Buy Now Pay Later service, why did you choose to finance the purchase in this way?**
 
-Note: only some of these are available in the 2021 dataset. The 2021 codebook includes 4b, 4c, and 4d.
 |Variable name|Description|
 |---|---|
 |BNPL4_a|Avoid interest charges|
