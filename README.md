@@ -1,4 +1,6 @@
-# Project Title
+# Buy Now Pay Later Adoption and Delinquency Prediction using SHED data - a multi-model comparison
+
+![](./img/cover.png)
 
 ## Overview
 This analysis utilizes data from the Federal Reserve’s Survey of Household Economics and Decisionmaking (SHED) for the years 2022–2025 to model the adoption and delinquency patterns of Buy Now, Pay Later (BNPL) users.
